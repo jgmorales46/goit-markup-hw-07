@@ -54,7 +54,9 @@ footer {
       color: var(--primary-white-color);
 
       &:hover {
-        color: var(--accent-color);
+        
+          fill: #188ce8;
+        
       }
     }
   }

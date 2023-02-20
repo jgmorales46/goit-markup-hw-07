@@ -29,9 +29,9 @@
   }
 }
 
-.customers .container ul li .icon-customer {
+.customers .container ul li .icon__customer {
   fill: var(--gray-2);
 }
-.customers .container ul li:hover .icon-customer {
+.customers .container ul li:hover .icon__customer {
   fill: var(--accent-color);
 }
