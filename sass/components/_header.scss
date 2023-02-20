@@ -1,0 +1,90 @@
+
+/* ----------- Header section ----------- */
+header {
+    height: 80px;
+ 
+    .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    height: 100%;
+
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 100px;
+
+       
+        .logo {
+            color: var(--accent-color);
+            font-family: "Raleway", sans-serif;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 1.2;
+            text-decoration: none;
+          }
+          .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 80px;
+
+            .page {
+                color: var(--primary-black-color);
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 1.4;
+              
+                letter-spacing: 0.02em;
+                text-decoration: none;
+                text-transform: capitalize;
+              }
+          }
+      }
+      .contacts-menu {
+        display: flex;
+        list-style: none;
+        gap: 80px;
+
+        li .item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+          
+            color: var(--primary-text-color);
+            font-weight: 500;
+            font-size: 14px;
+          
+            line-height: 20px;
+            letter-spacing: 0.02em;
+            text-decoration: none;
+            height: 20px;
+
+            .icon.email {
+                fill: var(--primary-text-color);
+                width: 20px;
+                height: 12px;
+              }
+              .icon.smartphone {
+                fill: var(--primary-text-color);
+                width: 10px;
+                height: 17px;
+              }
+          }
+      }
+  }
+}
+
+ 
+  
+  
+  
+  header .container nav .nav-menu .page:hover,
+  header .container nav .nav-menu .page:focus,
+  header .container nav .nav-menu .page.current,
+  header .container .contacts-menu li .item:hover,
+  header .container .contacts-menu li .item:focus,
+  header .container .contacts-menu li .item:hover .icon {
+    color: var(--accent-color);
+    fill: #03a9f4;
+  }
