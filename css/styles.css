@@ -1,94 +1,7 @@
 
 
-/*  estilos header links y botones */
-/*estilo links header  */
-.header__navegation {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header__list-menu {
-  display: flex;
-  column-gap: 50px;
-  justify-content: center;
-  align-items: center;
-  padding: 25px;
-  transition: color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-.header__list-menu a:hover {
-  color: var(--main--primaryColor);
-}
-
-.header__list-contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 16px;
-}
-
-/* para revisar esta parte del codigo email contactos----------------------*/
-
-/* estilos para svg email y texto email:hover*/
-.header__item-contact .email {
-  fill: #757575;
-  margin-right: 10px;
-  transition: color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-.header__item-contact:hover > .icon,
-.header__item-contact:focus > .icon,
-.header__item-contact:focus-within > .icon {
-  color: var(--main--primaryColor);
-}
-
-.header__item-contact:hover .email,
-.header__item-contact:focus .email,
-.header__item-contact:focus-within .email {
-  fill: var(--main--primaryColor);
-}
-
-/* estilos para svg telefono y texto telefono:hover*/
-.header__item-contact .telefono {
-  fill: #757575;
-  margin-right: 10px;
-  transition: color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-.header__item-contact:hover > .icon,
-.header__item-contact:focus > .icon,
-.header__item-contact:focus-within > .icon {
-  color: var(--main--primaryColor);
-}
-
-.header__item-contact:hover .telefono,
-.header__item-contact:focus .telefono,
-.header__item-contact:focus-within .telefono {
-  fill: var(--main--primaryColor);
-}
 
 
-/***************************************---------------*******************/
-/* Font Stylesk */
-.header__link {
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  padding: 10px;
-}
-
-.webstudio {
-  color: var(--main--primaryColor);
-  font-size: 26px;
-  line-height: 31px;
-  font-weight: 700;
-  margin-right: 30px;
-}
-header a {
-  color: var(--main--secundario);
-
-  font-size: 14px;
-  line-height: 16px;
-  font-weight: 500;
-}
 .footer__container-title {
   color: var(--main--textColor);
   font-family: Roboto;
@@ -188,9 +101,7 @@ footer {
 /*  estilos foooter*/
 /*revisar este codigo, el porque no me aparece la mano del cursor */
 
-.box__header a {
-  color: var(--main--textSecundario);
-}
+
 
 /****************************************************************************************estilos pagina portfolio******************************************************/
 
@@ -206,13 +117,7 @@ footer {
   line-height: 30px;
 }
 
-.header__menu.current {
-  color: var(--main--primaryColor);
-}
 
-.header_portfolio.current {
-  color: var(--main--primaryColor);
-}
 /* .current::after {
   content: "";
 
