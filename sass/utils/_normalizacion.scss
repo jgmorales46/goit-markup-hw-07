@@ -94,3 +94,10 @@ body {
 .box__header a {
     color: $main--textSecundario;
 }
+
+hr {
+    width: 1600px;
+    height: 1px;
+    background-image: url(../images/Línea.jpg);
+    margin-top: -1px;
+}

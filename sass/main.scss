@@ -1,5 +1,11 @@
+
+/*utils******************/
+
 @import "utils/variables";
 @import "utils/normalizacion";
+
+
+/******components*****************/
 @import "components/our-service";
 @import "components/about";
 @import "components/what-we-do";
@@ -9,3 +15,7 @@
 @import "components/header";
 @import "components/footer";
 @import "components/footer-suscribe";
+@import "components/button";
+@import "components/overlay-potfolio";
+@import "components/card-portfolio";
+@import "components/buttons-portfolio";
